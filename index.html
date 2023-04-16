@@ -4,8 +4,154 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <link href="style.css" rel="stylesheet" />
-    <title>Films</title>
+    <title>Portfolio</title>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <div class="presentation">
+        <h2>Alessandro Piscitiello</h2>
+        <p class="desc">Analog Photos Gallery</p>
+      </div>
+      <div class="container--bw">
+        <p class="BWTitle">Black & White Films</p>
+        <div class="imgSliderContainerBW">
+          <img
+            src="img/bw/IMG_0076.JPG"
+            class="slideImgBW"
+            alt="image black and white"
+          />
+          <img
+            src="img/bw/IMG_0083.JPG"
+            class="slideImgBW"
+            alt="image black and white"
+          />
+          <img
+            src="img/bw/IMG_0085.JPG"
+            class="slideImgBW"
+            alt="image black and white"
+          />
+          <img
+            src="img/bw/IMG_0091.JPG"
+            class="slideImgBW"
+            alt="image black and white"
+          />
+          <img
+            src="img/bw/IMG_0092.JPG"
+            class="slideImgBW"
+            alt="image black and white"
+          />
+
+          <button class="btn--BW btn--left--BW" onclick="scorriBW(-1)">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="btn-icon"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 19l-7-7 7-7"
+              />
+            </svg>
+          </button>
+          <button class="btn--BW btn--right--BW" onclick="scorriBW(1)">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="btn-icon"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5l7 7-7 7"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="container--color">
+        <p class="ColorTitle">Color Films</p>
+        <div class="imgSliderContainerColor">
+          <img
+            src="img/colors/1659477474226.jpg"
+            class="slideImgColor"
+            alt="rgb images"
+          />
+          <img
+            src="img/colors/IMM019.JPG"
+            class="slideImgColor"
+            alt="rgb images"
+          />
+          <img
+            src="img/colors/1659477474800.jpg"
+            class="slideImgColor"
+            alt="rgb images"
+          />
+          <img
+            src="img/colors/1659477474810.jpg"
+            class="slideImgColor"
+            alt="rgb images"
+          />
+          <img
+            src="img/colors/IMM004.JPG"
+            class="slideImgColor"
+            alt="rgb images"
+          />
+
+          <button class="btn--color btn--left--color" onclick="scorriColor(-1)">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="btn-icon"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 19l-7-7 7-7"
+              />
+            </svg>
+          </button>
+          <button class="btn--color btn--right--color" onclick="scorriColor(1)">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="btn-icon"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5l7 7-7 7"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
 </html>
