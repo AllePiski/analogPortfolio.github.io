@@ -25,7 +25,7 @@ main {
   height: 63rem;
   margin-top: 5rem;
   background-color: #dadbdb;
-  box-shadow: rgb(0, 0, 0) -20px 30px 80px 0px;
+  box-shadow: rgba(0, 0, 0, 0.788) -20px 30px 100px 0px;
   border-radius: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr;
